@@ -1,6 +1,4 @@
-# [jjunh33.github.io](https://jjunh33.github.io/)
-
-![home](assets/img/home.jpg)
+# [나만의 블로그](https://jjunh33.github.io/)
 
 ## Git blog 프로젝트 Build 과정
 
@@ -25,3 +23,7 @@ jjuh33.github.io 이름의 Repository 생성 후 로컬 컴퓨터에 clone
 - [다양한 Jekyll 테마를 가져올 수 있는 사이트](http://jekyllthemes.org/)에서 [AP테마](http://jekyllthemes.org/themes/AP/)를 선택하고 이를 적용
 
 - 이후에 2번처럼 블로그를 꾸미고 Google Analytics 같은 새로운 기능 추가
+
+### 4. 최종 결과물
+
+![home](assets/img/home.jpg)
