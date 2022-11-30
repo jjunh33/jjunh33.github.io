@@ -4,6 +4,7 @@ title: "What is Git?"
 info: "About git/github"
 tech: "Git"
 type: 특강 Topic post
+comments: true
 ---
 
 ## Git이란?

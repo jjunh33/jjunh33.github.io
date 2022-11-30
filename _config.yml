@@ -60,3 +60,9 @@ exclude:
   - "LICENSE"
   - "READE.md"
   - "screenshot.png"
+
+# Custom vars
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "jjunh33"
