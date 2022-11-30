@@ -1,4 +1,4 @@
-# [나만의 블로그](https://jjunh33.github.io/)
+(https://jjunh33.github.io/)
 
 ## Git blog 프로젝트 Build 과정
 
@@ -24,6 +24,6 @@ jjuh33.github.io 이름의 Repository 생성 후 로컬 컴퓨터에 clone
 
 - 이후에 2번처럼 블로그를 꾸미고 새로운 기능인 [Google Analytics](https://analytics.google.com/analytics/web/#/p344369935/reports/intelligenthome)추가
 
-### 4. 최종 결과물
+### 4. [최종 결과물](https://jjunh33.github.io/)
 
 ![home](assets/img/home.jpg)
