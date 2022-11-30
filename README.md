@@ -1,128 +1,27 @@
-# AP  [![Build Status](https://travis-ci.org/kssim/ap.svg?branch=master)](https://travis-ci.org/kssim/ap.svg?branch=master)
-"AP" is [Jekyll](https://jekyllrb.com/) theme for career. This theme is free and open-source.  
-Based on Chester How's tale-theme(https://github.com/chesterhow/tale) with a few new features:  
-* SNS Link
-* Google Analytics
-* Responsive design
-* Upgrading awesome fonts and modifying some layouts.
-* Use "About" as main.
-  * It can be written in simple resume form.
-* Change "Post" to "Project Portfolio"
-  * You can manage your project experience just like running a blog.
+# [jjunh33.github.io](https://jjunh33.github.io/)
 
+![home](assets/img/home.jpg)
 
-# Preview
-[![AP Screenshot](https://github.com/kssim/ap/blob/master/screenshot.png?raw=true)](https://kssim.github.io/ap/)
+## Git blog 프로젝트 Build 과정
 
+### 1.Github Repository 생성 & 연동
 
-# Usage
-1. Fork and clone the AP repo:
-    * git clone https://github.com/kssim/ap.git
-2. Install Jekyll:
-    * gem install jekyll
-3. Install the theme's dependencies
-    * bundle install
-4. Customize the theme
-    * update _config.yml
-5. Run the Jekyll server
-    * jekyll serve
+jjuh33.github.io 이름의 Repository 생성 후 로컬 컴퓨터에 clone
 
+### 2.Jekyll 사용한 정적 웹사이트
 
-## Structure
-* Here are the main files of the template
-```bash
-ap
-├── _includes                  # theme includes
-├── _layouts                   # theme layouts (see below for details)
-├── _posts                     # Project & Portfolio posts
-├── _sass                      # Sass partials 
-├── portfolio                  # Main page for "portfolio"
-├── assets
-|  ├── css                     # font-awesome and main css
-|  ├── fonts                   # Font-Awesome
-|  ├── favicon.ico             # Favicon
-|  └── img                     # Images used for "about" page
-├── _config.yml                # sample configuration
-└── index.md                   # Resume to show on "about" page
-```
+- [Jekyll 공식 사이트](https://jekyllrb-ko.github.io/)에서 Window용 Jekyll 설치
 
-## Configure AP
-Open _config.yml in a text editor to change most of the blog's settings.
+- _jekyll new . --force_ 실행 후 *bundle exec jekyll serve*로 기본 Jekyll 사이트 생성
 
+- \_config.yml 파일을 수정해 블로그 기본 설정, 텍스트 수정 가능
 
-### Site Configuration
-Configure Jekyll as your own blog or with a subpath in in _config.yml:  
-```yml
-title: [Website Title]
-baseurl: [Website Subpath]
-url: [Github Page Url]
-google_analytics: [Google Analytics Tracking ID]
-```
-Please configure this before using the theme.  
-And to enable Google Analytics, add your [Traking ID](https://support.google.com/analytics/answer/1008080?visit_id=1-636579797402349951-2693679291&rd=1)
+- \_posts 폴더에서 YYYY-MM-DD-TITLE.md의 형태로 블로그 포스트를 마크다운으로 작성
 
+- [disqus](https://disqus.com/) 툴을 이용해 블로그에 댓글 기능 추가
 
+### 3. 블로그에 테마 입히기
 
-### About You
-Meta variables hold basic information about your profile and resume.  
-Change these variables in _config.yml:  
-```yml
-author:
-  name: [Your Name]
-  desc: [Short introduction]
-  email: [Your E-Mail Address]
-  selfie: [Your Avatar]
-```
-Please configure this before using the theme.
+- [다양한 Jekyll 테마를 가져올 수 있는 사이트](http://jekyllthemes.org/)에서 [AP테마](http://jekyllthemes.org/themes/AP/)를 선택하고 이를 적용
 
-
-
-### SNS Information
-Your SNS information to display at the bottom of the page.  
-All values except "email" are text values.  
-```yml
-social:
-  email: true
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: 
-  google_plus:
-  instagram:
-  keybase:
-  linkedin:
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:
-  steam:
-  tumblr:
-  gitlab:
-  twitter: 
-  vimeo:
-  wordpress:
-  youtube:
-  default_txt: "Follow On"
-```
-
-
-## Portfolio Schema
-```markdown
----
-layout: post
-title:  [Project title to show in portfolio list]
-info: [A brief introduction to show in portfolio list]
-tech: [The technologies used in the project to show in portfolio list]
-type: [Property of the project to be displayed in front of the project's info(toy or company name)]
----
-```
-
-## Other formats
-It uses the markdown syntax by default, and there is no format other than the one mentioned above.  
-You can use it as you like.  
-
-
-## License
-[The MIT License (MIT)](https://raw.githubusercontent.com/kssim/ap/master/LICENSE)
+- 이후에 2번처럼 블로그를 꾸미고 Google Analytics 같은 새로운 기능 추가
