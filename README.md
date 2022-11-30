@@ -1,5 +1,3 @@
-(https://jjunh33.github.io/)
-
 ## Git blog 프로젝트 Build 과정
 
 ### 1. Github Repository 생성 & 연동
